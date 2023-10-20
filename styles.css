@@ -1,0 +1,120 @@
+  @import url(https://fonts.googleapis.com/css?family=Poppins:300);
+*{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url(bg.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .login-page {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+  }
+  
+  .form input {
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+  }
+  .form button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #234666;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #0e2941;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .messagee a {
+    color: #234666;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+  .form .register-form input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ffff;
+    padding: 0 35px 0 5px;
+  }
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #ffff;
+}
+.input-box ion-icon{
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    font-size: 1.5em;
+    color: #ffff;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1em;
+    color: #ffff;
+    transition: .5s;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ffff;
+    padding: 0 35px 0 5px;
+}
